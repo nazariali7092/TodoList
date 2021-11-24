@@ -1,0 +1,309 @@
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #1466ef;
+    --bg-color: #f0f1f3;    ;
+    --hr-color: #e3e4e6;
+    --editBtn-color: #79cfe7;
+    --delBtn-color: #ee5971;
+    }
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    align-items: center;
+}
+h2
+{
+    padding:1rem;
+}
+.h2-span ,h2
+{
+    color:var(--main-color);
+    font-size: 1.5rem;
+}
+.h2-span
+{
+    margin-right: 0.5rem;
+}
+.input-container
+{
+    background-color: white;
+    width:90%;
+    margin-bottom: 1rem;
+}
+#inputText
+{
+    border: none;
+}
+
+.input-container button
+{
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 500!important;
+}
+
+.sec-border
+{
+    border-radius: 0.5rem;
+    border: solid 1px var(--editBtn-color);
+    box-shadow:  4px 4px 2px 1px var(--hr-color)
+}
+
+/*ul li {*/
+/*    cursor: pointer;*/
+/*    position: relative;*/
+/*    padding: 12px 8px 12px 40px;*/
+/*    background: #eee;*/
+/*    font-size: 18px;*/
+/*    transition: 0.2s;*/
+/*    -webkit-user-select: none;*/
+/*    -moz-user-select: none;*/
+/*    -ms-user-select: none;*/
+/*    user-select: none;*/
+/*  }*/
+
+button
+{
+    border:none;
+    background-color: transparent;
+}
+
+
+.d-none
+{
+    display: none;
+}
+.d-block
+{
+    display: block;
+}
+
+/*.anime{*/
+/*    animation: .05s ease-in 1 alternate rocket;*/
+/*    border: 1px solid red*/
+/*}*/
+
+/*#todo a {*/
+/*    position: relative;*/
+/*    color: #000!important;*/
+/*    text-decoration: none!important;*/
+/*}*/
+
+.padd{
+    padding-right: 30px;
+}
+
+.fa-pencil-alt
+{
+    color:var(--editBtn-color);
+}
+
+.fa-trash-alt
+{
+    color:var(--delBtn-color)
+}
+
+.pagination {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination__btn {
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 7px;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.pagination__btn-active {
+    background-color: #408AD2;
+    color: #fff;
+}
+
+.check-line
+{
+    text-decoration: line-through;
+}
+
+
+/**{*/
+/*    box-sizing: border-box;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+
+/*.item-description{*/
+/*    text-align:left;*/
+/*    margin-top:1rem;*/
+/*}*/
+
+/*.register {*/
+/*    background: white;*/
+/*    margin-top: 10%;*/
+/*    padding: 3%;*/
+/*}*/
+/*.todos {*/
+/*    background: #f9f9fa;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.delete {*/
+/*    cursor: pointer;*/
+/*    color: rgb(248, 53, 4);*/
+/*}*/
+/*.edit {*/
+/*    cursor: pointer;*/
+/*    color: rgb(19, 114, 223);*/
+/*}*/
+
+
+
+/*.spanTxt.checked::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    border-color: rgb(7, 7, 7);*/
+/*    border-style: solid;*/
+/*    border-width: 0 2px 2px 0;*/
+/*    top: 10px;*/
+/*    left: 16px;*/
+/*    transform: rotate(45deg);*/
+/*    height: 15px;*/
+/*    width: 7px;*/
+/*}*/
+
+
+/*.tlp {*/
+/*    position: fixed;*/
+/*    padding: 10px 20px;*/
+/*    border: 1px solid #b3c9ce;*/
+/*    border-radius: 4px;*/
+/*    text-align: center;*/
+/*    font: italic 14px/1.3 sans-serif;*/
+/*    color: #333;*/
+/*    background: #fff;*/
+/*    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);*/
+/*}*/
+
+
+/*.lists{*/
+/*    background-color: white;*/
+/*}*/
+
+
+
+
+/*.pop-wrapper{*/
+/*    display: none;*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    background: rgba(0, 0, 0, 0.5);*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
+
+/*.pop{*/
+/*    background-color: aliceblue;*/
+/*    text-align: center;*/
+/*    margin: 20% auto;*/
+/*    width: 30%;*/
+/*    border-radius: .4rem;*/
+/*}*/
+
+/*.pop h2{*/
+/*    padding-top: 1.5rem;*/
+/*    padding-bottom: .5rem;*/
+/*    padding-left: 1.5rem;*/
+/*    text-align: left;*/
+/*}*/
+
+/*.pop button{*/
+/*    margin: 1rem .3rem;*/
+/*    color: aliceblue;*/
+/*    border: none;*/
+/*    border-radius: .3rem;*/
+/*    height: 2.5rem;*/
+/*    width: 25%;*/
+/*}*/
+
+/*.done-btm{*/
+/*    background-color: rgb(0, 119, 255);*/
+/*    font-size: 1rem;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.cancel-btm{*/
+/*    background-color: crimson;*/
+/*    font-size: 1rem;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.pop input {*/
+/*    font-size: 1.5rem;*/
+/*    border: .1rem solid rgb(22, 178, 240);*/
+/*    padding: .3rem .5rem;*/
+/*    border-radius: .3rem;*/
+/*    margin: 1rem .3rem;*/
+/*    width: 70%;*/
+/*}*/
+/*hr{*/
+/*    color: rgb(21, 20, 20);*/
+/*    border: .1rem solid rgb(209, 208, 208);*/
+/*}*/
+/*.input-box{*/
+/*    text-align: left;*/
+/*    padding-left: 1.5rem;*/
+/*    color: black;*/
+/*}*/
+
+/*.input-box label{*/
+/*    font-size: 1.2rem;*/
+/*    font-weight: bold;*/
+/*    margin-right: .5rem;*/
+/*}*/
+
+/*.btm-box{*/
+/*    display:flex;*/
+/*    justify-content:center;*/
+/*}*/
+
+
+
+/*button:hover {*/
+/*    transform: scale(1.05);*/
+/*    transition: all .2s ease;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+/*.lab-for{*/
+/*  position:absolute;*/
+/*}*/
+
+
